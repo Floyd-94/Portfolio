@@ -1,0 +1,193 @@
+@media (max-width: 1200px) {
+    #inicio {
+        flex-direction: column;
+        padding-top: 90px;
+        padding-bottom: 80px;
+        height: auto;
+    }
+
+
+    .inicio-contenido {
+        height: auto;
+    }
+
+
+    .inicio-contenido h2 {
+        text-align: center;
+    }
+
+    .inicio-contenido h2,
+    .proyecto-contenido h2,
+    .contacto-contenido h2 {
+        font-size: 40px;
+    }
+
+
+    .img-inicio {
+        max-width: none;
+        width: 500px;
+        margin-top: 50px;
+    }
+
+    h1 {
+        font-size: 90px;
+    }
+
+    #contacto {
+        height: auto;
+    }
+
+
+    #contacto .columna {
+        flex-direction: column;
+        padding: 80px 0;
+        height: auto;
+    }
+
+
+    .contacto-contenido {
+        height: auto;
+    }
+
+
+    .contacto-contenido h2 {
+        text-align: center;
+    }
+
+
+    .contacto-contenido p {
+        display: none;
+    }
+
+    .icono-redes {
+        margin-right: 20px;
+       
+    }
+
+    .redes span {
+        font-size: 25px;
+      }
+
+    .img-contacto {
+        margin-top: 50px;
+    }
+}
+
+
+@media (max-width: 400px) {
+
+    .nav {
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        flex-direction: none;
+    }
+
+    .padding-mobile {
+        padding-left: 20px;
+        padding-right: 20px;
+        box-sizing: border-box;
+    }
+
+
+    .inicio-contenido h2,
+    .proyecto-contenido h2,
+    .contacto-contenido h2 {
+        font-size: 30px;
+    }
+
+
+    .inicio-contenido p {
+        font-size: 20px;
+        line-height: 22px;
+    }
+
+
+    h1 {
+        font-size: 80px;
+    }
+
+    .abejita-1 {
+        transform: rotateZ(45deg);
+        position: absolute;
+        bottom: 120px;
+        left: 50px;
+    }
+
+
+    .abejita-1:hover {
+        transform: rotateZ(135deg);
+    }
+
+
+    .abejita-2 {
+        transform: rotateZ(120deg);
+        position: absolute;
+        top: 60px;
+        left: 30px;
+    }
+
+
+    .abejita-2:hover {
+        transform: rotateZ(40deg);
+    }
+
+
+    .abejita-3 {
+        transform: rotateZ(-45deg);
+        position: absolute;
+        bottom: 90px;
+        right: 50px;
+    }
+
+
+    .abejita-3:hover {
+        transform: rotateZ(-135deg);
+    }
+
+
+    .abejita-4 {
+        transform: rotateZ(-110deg);
+        position: absolute;
+        top: 130px;
+        right: 60px;
+    }
+
+
+    .abejita-4:hover {
+        transform: rotateZ(-30deg);
+    }
+
+    .recetas {
+        padding: 70px 0px;
+    }
+
+    .img-recetas {
+        width: 300px;
+    }
+
+    .img-contacto {
+        width: 300px;
+    }
+
+    .redes span {
+        font-size: 20px;
+        margin-top: 10px;
+    }
+
+
+    .redes a {
+        flex-direction: column;
+        margin: 0;
+    }
+
+
+    .icono-redes {
+        margin: 0;
+    }
+
+
+    .fa-envelope {
+        margin-top: 20px;
+    }
+}

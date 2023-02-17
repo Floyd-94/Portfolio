@@ -6,26 +6,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>Samantha Portfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
-      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet" />
     <link rel="stylesheet" href="general.css" />
     <link rel="stylesheet" href="responsive.css" />
-  </head>
+</head>
 
 <body>
 
@@ -44,13 +35,16 @@
 
     <main>
         <section id="saludo" class="padding-mobile">
-            <h1>
-                Hola, soy
-                <span class="nombre">Sam
-                    <img src="img/abeja-con-panal.png" alt="" class="abeja-con-panal" />
-                </span>
-            </h1>
-            <p>(sección interactiva, pasá el mouse por arriba)</p>
+
+            <div class="saludo-texto">
+                <h1>
+                    Hola, soy
+                    <span class="nombre">Sam
+                        <img src="img/abeja-con-panal.png" alt="" class="abeja-con-panal" />
+                    </span>
+                </h1>
+                <p>(sección interactiva, pasá el mouse por arriba de las abejitas)</p>
+            </div>
             <img src="img/abeja-2.png" alt="" class="abejita-1" />
             <img src="img/abeja-2.png" alt="" class="abejita-2" />
             <img src="img/abeja-2.png" alt="" class="abejita-3" />
@@ -62,6 +56,8 @@
                 <img src="img/flor.png" alt="" />
             </div>
         </section>
+        <div class="fin-saludo">
+        </div>
         <section id="inicio" class="padding-mobile">
             <div class="inicio-contenido">
                 <h2>Y soy desarrolladora web</h2>
@@ -79,14 +75,20 @@
             </div>
             <img class="img-inicio" src="img/proyecto-recetas.png" alt="Foto de página de recetas en html y css" />
         </section>
+
+        <div class="proyecto-separador"></div>
+
         <section id="proyectos" class="padding-mobile">
-            <div class="proyecto-contenido">
-                <h2>Proyectos</h2>
+            <div class="proyectos-contenido">
+                <h2>Mis proyectos</h2>
+                <p>
+                    dipisicing elit. Quo ipsa explicabo perferendis error optio
+                    temporibus libero at dolorum iusto. Fugiat facilis adipisci eaque
+                    sed voluptate provident accusantium omnis inventore? Iusto?
+                </p>
             </div>
-        </section>
-        <section>
-            <article class="proyecto">
-                <div class="recetas">
+            <article>
+                <div class="proyecto">
                     <a href="">
                         <img class="img-recetas" src="img/proyecto-recetas.png"
                             alt="Foto de página de recetas en html y css" />
@@ -100,19 +102,25 @@
     <section id="contacto">
         <div class="columna padding-mobile">
             <div class="contacto-contenido">
-                <h2>Contáctame!</h2>
+                <h2>Contácto</h2>
                 <p>Me podés escribir en:</p>
                 <ul class="redes">
-                    <li>
-                        <a href="https://www.linkedin.com/in/samantha-salda%C3%B1a-pimentel/">
-                            <i class="icono-redes fa-brands fa-linkedin"></i>
-                            <span>/samantha-saldaña-pimentel</span>
-                        </a>
-                    </li>
                     <li>
                         <a href="mailto:s.saldana.pimentel@gmail.com">
                             <i class="icono-redes fa-solid fa-envelope"></i>
                             <span>s.saldana.pimentel@gmail.com</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/Floyd-94">
+                            <i class="icono-redes fa-brands fa-github"></i>
+                            <span>https://github.com/Floyd-94</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/samantha-salda%C3%B1a-pimentel/">
+                            <i class="icono-redes fa-brands fa-linkedin"></i>
+                            <span>/samantha-saldaña-pimentel</span>
                         </a>
                     </li>
                 </ul>
@@ -127,6 +135,22 @@
         <i class="fa-sharp fa-solid fa-copyright"></i>
         <span>Samantha Saldaña 2022</span>
     </footer>
+    <script type="module">
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/9.17.1/firebase-app.js";
+        import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.17.1/firebase-analytics.js";
+        // TODO: Add SDKs for Firebase products that you want to use
+        // https://firebase.google.com/docs/web/setup#available-libraries
+
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+
+
+
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+        const analytics = getAnalytics(app);
+    </script>
 </body>
 
 </html>
