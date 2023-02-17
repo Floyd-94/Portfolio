@@ -1,4 +1,15 @@
 @media (max-width: 1200px) {
+
+    h1 {
+        font-size: 90px;
+    }
+
+    .padding-mobile {
+        padding-left: 20px;
+        padding-right: 20px;
+        box-sizing: border-box;
+    }
+
     #inicio {
         flex-direction: column;
         padding-top: 90px;
@@ -22,15 +33,35 @@
         font-size: 40px;
     }
 
+    .inicio-contenido p,
+    .p2 {
+        font-size: 22px;
+    }
+
 
     .img-inicio {
         max-width: none;
-        width: 500px;
-        margin-top: 50px;
+        width: 450px;
+
     }
 
-    h1 {
-        font-size: 90px;
+    .div-articulos {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .proyecto {
+        display: flex;
+        align-items: center;
+    }
+
+    #proyectos {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .proyecto-1 {
+        margin-bottom: 35px;
     }
 
     #contacto {
@@ -61,18 +92,75 @@
 
     .icono-redes {
         margin-right: 20px;
-       
+
     }
 
     .redes span {
-        font-size: 25px;
-      }
+        font-size: 22px;
+    }
 
     .img-contacto {
         margin-top: 50px;
     }
 }
 
+@media (max-width: 800px) {
+    .padding-mobile {
+        padding-left: 20px;
+        padding-right: 20px;
+        box-sizing: border-box;
+    }
+
+    #inicio {
+        padding-left: 35px;
+        padding-right: 35px;
+    }
+
+    .inicio-contenido h2,
+    .proyectos-contenido h2,
+    .contacto-contenido h2 {
+        font-size: 35px;
+    }
+
+    .inicio-contenido p,
+    .p2,
+    #proyectos p {
+        font-size: 20px;
+    }
+
+    .skills {
+        font-size: 50px;
+    }
+
+    .img-inicio {
+        max-width: none;
+        width: 350px;
+    }
+
+    #proyectos {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .div-articulos {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .proyecto {
+        display: flex;
+        align-items: center;
+    }
+
+    .proyecto-1 {
+        margin-bottom: 35px;
+    }
+
+    .redes span {
+        font-size: 20px;
+    }
+
+}
 
 @media (max-width: 400px) {
 
@@ -82,13 +170,6 @@
         justify-content: center;
         flex-direction: none;
     }
-
-    .padding-mobile {
-        padding-left: 20px;
-        padding-right: 20px;
-        box-sizing: border-box;
-    }
-
 
     .inicio-contenido h2,
     .proyecto-contenido h2,
@@ -158,8 +239,13 @@
         transform: rotateZ(-30deg);
     }
 
-    .recetas {
-        padding: 70px 0px;
+    #proyectos {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .proyecto-1 {
+        margin-bottom: 35px;
     }
 
     .img-recetas {
@@ -189,5 +275,19 @@
 
     .fa-envelope {
         margin-top: 20px;
+    }
+
+    .padding-mobile {
+        padding-left: 20px;
+        padding-right: 20px;
+        box-sizing: border-box;
+    }
+
+    .redes span {
+        font-size: 20px;
+    }
+
+    footer span {
+        font-size: 16px;
     }
 }
