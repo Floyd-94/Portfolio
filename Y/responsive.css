@@ -39,12 +39,6 @@
     }
 
 
-    .img-inicio {
-        max-width: none;
-        width: 450px;
-
-    }
-
     .div-articulos {
         display: flex;
         flex-direction: column;
@@ -133,7 +127,6 @@
     }
 
     .img-inicio {
-        max-width: none;
         width: 350px;
     }
 
@@ -239,6 +232,7 @@
         transform: rotateZ(-30deg);
     }
 
+
     #proyectos {
         padding-top: 50px;
         padding-bottom: 50px;
@@ -283,8 +277,15 @@
         box-sizing: border-box;
     }
 
+    .redes a {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 15px;
+      }
+    
     .redes span {
-        font-size: 20px;
+        font-size: 18px;
+        margin-left: 15px;
     }
 
     footer span {
