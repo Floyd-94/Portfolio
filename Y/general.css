@@ -259,14 +259,6 @@ h1 {
 }
 
 
-#proyectos p {
-  font-size: 24px;
-  line-height: 32px;
-  color: white;
-  margin-bottom: 25px;
-  text-align: justify;
-}
-
 .div-articulos {
   width: 100%;
   display: flex;
@@ -276,6 +268,7 @@ h1 {
 .proyecto {
   display: flex;
   flex-direction: column;
+  text-align: center;
   width: 100%;
   height: auto;
   background-color: #0a0a0a;
@@ -286,6 +279,14 @@ h1 {
   font-size: 25px;
   text-align: center;
   margin-top: 25px;
+}
+
+.proyecto p {
+  font-size: 20px;
+  line-height: 32px;
+  color: white;
+  margin-bottom: 25px;
+  text-align: justify;
 }
 
 .img-recetas {
