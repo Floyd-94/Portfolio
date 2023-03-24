@@ -23,7 +23,6 @@
     <header>
         <div class="nav">
             <nav>
-                <!--position absolute-->
                 <ul>
                     <li><a href="#inicio">INICIO</a></li>
                     <li><a href="#proyectos">PROYECTOS</a></li>
@@ -40,16 +39,16 @@
                 <h1>
                     Hola, soy
                     <span class="nombre">Sam
-                        <img src="img/abeja-con-panal.png" alt="" class="abeja-con-panal" />
+                        <img src="./recursos-portfolio/abeja-con-panal.png" alt="" class="abeja-con-panal" />
                     </span>
                 </h1>
                 <p>(sección interactiva)</p>
             </div>
-            <img src="img/abeja-2.png" alt="" class="abejita-1" />
-            <img src="img/abeja-2.png" alt="" class="abejita-2" />
-            <img src="img/abeja-2.png" alt="" class="abejita-3" />
-            <img src="img/abeja-2.png" alt="" class="abejita-4" />
-            <img src="img/panal.png" alt="" class="panal" />
+            <img src="./recursos-portfolio/abeja-2.png" alt="" class="abejita-1" />
+            <img src="./recursos-portfolio/abeja-2.png" alt="" class="abejita-2" />
+            <img src="./recursos-portfolio/abeja-2.png" alt="" class="abejita-3" />
+            <img src="./recursos-portfolio/abeja-2.png" alt="" class="abejita-4" />
+            <img src="./recursos-portfolio/panal.png" alt="" class="panal" />
             <div class="macetitas">
                 <img src="img/flor.png" alt="" />
                 <img src="img/flor.png" alt="" />
@@ -82,7 +81,8 @@
                 <h3 class="h3">
                     ¡Hola! yo soy Nemo G.
                 </h3>
-                <img class="img-inicio" src="img/nemo.jpg" alt="Foto de un lindo gato llamado Nemo G." />
+                <img class="img-inicio" src="./recursos-portfolio/nemo.jpg"
+                    alt="Foto de un lindo gato llamado Nemo G." />
             </div>
         </section>
 
@@ -96,10 +96,12 @@
             <div class="div-articulos">
                 <article>
                     <div class="proyecto proyecto-1">
-                        <a href="https://postrecitos-dca0e.web.app/">
-                            <img class="img-recetas" src="img/proyecto-recetas.png"
-                                alt="Foto de página de recetas en html y css" />
-                        </a>
+                        <div class="proyecto-img proyecto1-fondo">
+                            <a href="https://postrecitos-dca0e.web.app/">
+                                <img class="img-recetas" src="./recursos-portfolio/Postrecitos.png"
+                                    alt="Foto de página de recetas en html y css" />
+                            </a>
+                        </div>
                         <h3>Página de recetas</h3>
                         <p>
                             En este apliqué HTML + CSS, GitHub y Firebase
@@ -108,10 +110,12 @@
                 </article>
                 <article>
                     <div class="proyecto proyecto-2">
-                        <a href="https://amazing-events-page.web.app/">
-                            <img class="img-recetas" src="img/proyecto-recetas.png"
-                                alt="Foto de página de recetas en html y css" />
-                        </a>
+                        <div class="proyecto-img proyecto2-fondo">
+                            <a href="https://amazing-events-page.web.app/">
+                                <img class="img-amazingevents" src="./recursos-portfolio/Logo Amazing Events.png"
+                                    alt="Foto de página de recetas en html y css" />
+                            </a>
+                        </div>
                         <h3>Amazing Events</h3>
                         <p>
                             En este apliqué HTML + CSS + JS, GitHub y Firebase
@@ -160,30 +164,33 @@
         <i class="fa-sharp fa-solid fa-copyright"></i>
         <span>Samantha Saldaña 2022</span>
     </footer>
+
+    <script src="main.js"></script>
+
     <script type="module">
         // Import the functions you need from the SDKs you need
-        import { initializeApp } from "https://www.gstatic.com/firebasejs/9.17.1/firebase-app.js";
-        import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.17.1/firebase-analytics.js";
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/9.18.0/firebase-app.js";
+        import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.18.0/firebase-analytics.js";
         // TODO: Add SDKs for Firebase products that you want to use
         // https://firebase.google.com/docs/web/setup#available-libraries
 
         // Your web app's Firebase configuration
         // For Firebase JS SDK v7.20.0 and later, measurementId is optional
-
         const firebaseConfig = {
-          apiKey: "AIzaSyDPkOzqJnzzOhoSKOn5p5SOHN4KnGmMTtM",
-          authDomain: "sam-portfolioweb-f59c3.firebaseapp.com",
-          projectId: "sam-portfolioweb-f59c3",
-          storageBucket: "sam-portfolioweb-f59c3.appspot.com",
-          messagingSenderId: "799535344497",
-          appId: "1:799535344497:web:61df627e5aa7fa1d21a4d0",
-          measurementId: "G-RK886864HE"
+            apiKey: "AIzaSyDPkOzqJnzzOhoSKOn5p5SOHN4KnGmMTtM",
+            authDomain: "sam-portfolioweb-f59c3.firebaseapp.com",
+            projectId: "sam-portfolioweb-f59c3",
+            storageBucket: "sam-portfolioweb-f59c3.appspot.com",
+            messagingSenderId: "799535344497",
+            appId: "1:799535344497:web:73a968f2afff60b621a4d0",
+            measurementId: "G-WJ8C6CJ0T2"
         };
 
         // Initialize Firebase
         const app = initializeApp(firebaseConfig);
         const analytics = getAnalytics(app);
     </script>
+
 </body>
 
 </html>

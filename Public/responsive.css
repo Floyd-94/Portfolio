@@ -17,11 +17,9 @@
         height: auto;
     }
 
-
     .inicio-contenido {
         height: auto;
     }
-
 
     .inicio-contenido h2 {
         text-align: center;
@@ -37,7 +35,6 @@
     .p2 {
         font-size: 22px;
     }
-
 
     .div-articulos {
         display: flex;
@@ -62,23 +59,19 @@
         height: auto;
     }
 
-
     #contacto .columna {
         flex-direction: column;
         padding: 80px 0;
         height: auto;
     }
 
-
     .contacto-contenido {
         height: auto;
     }
 
-
     .contacto-contenido h2 {
         text-align: center;
     }
-
 
     .contacto-contenido p {
         display: none;
@@ -86,7 +79,6 @@
 
     .icono-redes {
         margin-right: 20px;
-
     }
 
     .redes span {
@@ -170,12 +162,10 @@
         font-size: 30px;
     }
 
-
     .inicio-contenido p {
         font-size: 20px;
         line-height: 22px;
     }
-
 
     h1 {
         font-size: 80px;
@@ -188,11 +178,9 @@
         left: 50px;
     }
 
-
     .abejita-1:hover {
         transform: rotateZ(135deg);
     }
-
 
     .abejita-2 {
         transform: rotateZ(120deg);
@@ -201,11 +189,9 @@
         left: 30px;
     }
 
-
     .abejita-2:hover {
         transform: rotateZ(40deg);
     }
-
 
     .abejita-3 {
         transform: rotateZ(-45deg);
@@ -214,11 +200,9 @@
         right: 50px;
     }
 
-
     .abejita-3:hover {
         transform: rotateZ(-135deg);
     }
-
 
     .abejita-4 {
         transform: rotateZ(-110deg);
@@ -227,11 +211,9 @@
         right: 60px;
     }
 
-
     .abejita-4:hover {
         transform: rotateZ(-30deg);
     }
-
 
     #proyectos {
         padding-top: 50px;
@@ -261,11 +243,9 @@
         margin: 0;
     }
 
-
     .icono-redes {
         margin: 0;
     }
-
 
     .fa-envelope {
         margin-top: 20px;
