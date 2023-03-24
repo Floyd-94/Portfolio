@@ -14,7 +14,7 @@ body {
 
 header {
   background-color: #f9dc5c;
-  height: 35px; 
+  height: 35px;
 }
 
 
@@ -52,6 +52,7 @@ nav ul li:hover {
 nav a {
   text-decoration: none;
   color: #0a0a0a;
+  font-size: 16px;
 }
 
 /* ==================== SECCION SALUDO ===================== */
@@ -142,7 +143,7 @@ h1 {
 
 .panal {
   position: absolute;
-  top: 40px;
+  top: 20px;
   right: 0px;
 }
 
@@ -195,12 +196,12 @@ h1 {
   margin-bottom: 25px;
 }
 
-.nemo{
+.nemo {
   display: flex;
   flex-direction: column;
 }
 
-.h3{
+.h3 {
   font-size: 22px;
   text-align: center;
   margin-bottom: 20px;
@@ -296,11 +297,11 @@ h1 {
   background-color: rgb(255, 255, 255);
 }
 
-.img-recetas{
+.img-recetas {
   width: 300px;
 }
 
-.img-amazingevents{
+.img-amazingevents {
   width: 380px;
 }
 
@@ -312,7 +313,9 @@ h1 {
 }
 
 #contacto {
-  height: 640px;
+  min-height: 665px;
+  height: 100%;
+  display: flex;
 }
 
 .columna {
@@ -321,7 +324,7 @@ h1 {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  height: 100%;
+
 }
 
 .contacto-contenido {

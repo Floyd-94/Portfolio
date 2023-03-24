@@ -20,21 +20,21 @@
 
 <body>
 
-    <header>
+    <header id="inicio" >
         <div class="nav">
             <nav>
                 <ul>
                     <li><a href="#inicio">INICIO</a></li>
-                    <li><a href="#sobre-mi">SOBRE MI</a></li>
-                    <li><a href="#proyectos">PROYECTOS</a></li>
-                    <li><a href="#contacto">CONTACTO</a></li>
+                    <li><a href="#sobremi">SOBRE MI</a></li>
+                    <li><a href="#proyectos1">PROYECTOS</a></li>
+                    <li><a href="#contacto1">CONTACTO</a></li>
                 </ul>
             </nav>
         </div>
     </header>
 
     <main>
-        <section id="inicio">
+        <section>
             <div id="saludo" class="padding-mobile">
                 <div class="saludo-texto">
                     <h1>
@@ -58,7 +58,7 @@
             </div>
         </section>
 
-        <div class="fin-saludo"></div>
+        <div class="fin-saludo" id="sobremi"></div>
 
         <section id="sobre-mi" class="padding-mobile">
             <div class="inicio-contenido">
@@ -89,7 +89,7 @@
         </section>
 
 
-        <div class="proyecto-separador"></div>
+        <div class="proyecto-separador" id="proyectos1"></div>
 
         <section id="proyectos" class="padding-mobile">
             <div class="proyectos-contenido">
@@ -130,7 +130,7 @@
 
     </main>
 
-    <div class="contacto-separador"></div>
+    <div class="contacto-separador" id="contacto1"></div>
 
     <section id="contacto">
         <div class="columna padding-mobile">
@@ -179,7 +179,7 @@
         // Your web app's Firebase configuration
         // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 
-
+        
 
         // Initialize Firebase
         const app = initializeApp(firebaseConfig);
