@@ -14,20 +14,26 @@ body {
 
 header {
   background-color: #f9dc5c;
-  height: 35px;
+  height: 35px; 
 }
 
+
 nav {
-  max-width: 1400px;
+  width: 100%;
+  height: 35px;
   margin: 0 auto;
   display: flex;
   flex-direction: row-reverse;
-  margin-left: 25px;
+  padding-left: 25px;
+  position: fixed;
+  background-color: #f9dc5c;
+  z-index: 3;
 }
 
 nav ul {
   list-style: none;
   display: flex;
+  padding-right: 40px;
 }
 
 
@@ -59,6 +65,7 @@ nav a {
   align-items: center;
   background-color: #0a0a0a;
   position: relative;
+  z-index: 1;
 }
 
 h1 {
@@ -135,7 +142,7 @@ h1 {
 
 .panal {
   position: absolute;
-  top: 20px;
+  top: 40px;
   right: 0px;
 }
 
@@ -153,9 +160,9 @@ h1 {
 
 /* ==================== SECCION INICIO ===================== */
 
-#inicio {
+#sobre-mi {
   max-width: 1400px;
-  height: 700px;
+  height: 710px;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
@@ -305,7 +312,7 @@ h1 {
 }
 
 #contacto {
-  height: 500px;
+  height: 640px;
 }
 
 .columna {

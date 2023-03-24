@@ -10,7 +10,7 @@
         box-sizing: border-box;
     }
 
-    #inicio {
+    #sobre-mi {
         flex-direction: column;
         padding-top: 90px;
         padding-bottom: 80px;
@@ -97,7 +97,7 @@
         box-sizing: border-box;
     }
 
-    #inicio {
+    #sobre-mi {
         padding-left: 35px;
         padding-right: 35px;
     }
